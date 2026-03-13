@@ -110,6 +110,16 @@ export function Validator() {
           <p className="text-zinc-400 text-lg max-w-xl mx-auto">
             Experimente a nova lógica. O algoritmo está rodando direto no seu navegador em TypeScript React moderno.
           </p>
+          <div className="mt-6 flex justify-center">
+             <a 
+              href="https://servicos.receitafederal.gov.br/servico/cnpj-alfa/simular" 
+              target="_blank" 
+              rel="noreferrer"
+              className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 hover:bg-indigo-500/20 transition-all font-medium text-sm"
+            >
+              Comparar com Simulador Oficial da Receita
+            </a>
+          </div>
         </div>
 
         <div className="glass-card p-1">
