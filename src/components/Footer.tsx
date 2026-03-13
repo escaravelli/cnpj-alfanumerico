@@ -1,4 +1,3 @@
-```
 import { Fingerprint } from "lucide-react";
 
 export function Footer() {
@@ -27,4 +26,3 @@ export function Footer() {
     </footer>
   );
 }
-```
