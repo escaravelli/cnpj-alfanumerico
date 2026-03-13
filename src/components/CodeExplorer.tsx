@@ -34,6 +34,8 @@ const DB_TABS = [
   { id: "db-oracle", name: "Oracle", file: "oracle.sql", lang: "sql" },
   { id: "db-mongodb", name: "MongoDB", file: "mongodb.js", lang: "javascript" },
   { id: "db-sqlite", name: "SQLite", file: "sqlite.sql", lang: "sql" },
+  { id: "db-firebase", name: "Firebase (Cloud Functions)", file: "firebase.js", lang: "javascript" },
+  { id: "db-cassandra", name: "Cassandra (CQL)", file: "cassandra.cql", lang: "sql" },
 ];
 
 export function CodeExplorer() {
