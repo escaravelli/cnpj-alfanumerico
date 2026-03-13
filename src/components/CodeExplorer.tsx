@@ -31,6 +31,9 @@ const DB_TABS = [
   { id: "db-postgres", name: "PostgreSQL", file: "postgres.sql", lang: "sql" },
   { id: "db-mysql", name: "MySQL", file: "mysql.sql", lang: "sql" },
   { id: "db-sqlserver", name: "SQL Server", file: "sqlserver.sql", lang: "sql" },
+  { id: "db-oracle", name: "Oracle", file: "oracle.sql", lang: "sql" },
+  { id: "db-mongodb", name: "MongoDB", file: "mongodb.js", lang: "javascript" },
+  { id: "db-sqlite", name: "SQLite", file: "sqlite.sql", lang: "sql" },
 ];
 
 export function CodeExplorer() {
