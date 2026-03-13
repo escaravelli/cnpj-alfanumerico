@@ -1,4 +1,4 @@
-import { Code2, Hash, Calculator, ShieldCheck, Download, Fingerprint, ExternalLink, MessageCircleWarning } from "lucide-react";
+import { Code2, Hash, Calculator, ShieldCheck, Fingerprint, ExternalLink, MessageCircleWarning } from "lucide-react";
 
 export function Hero() {
   return (

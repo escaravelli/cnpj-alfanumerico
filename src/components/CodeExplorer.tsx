@@ -52,7 +52,7 @@ export function CodeExplorer() {
           setTimeout(() => Prism.highlightAll(), 0);
         }
       })
-      .catch((e) => {
+      .catch(() => {
         if (isMounted) setCode(`// Erro ao carregar o arquivo ${activeTab.file}`);
       });
 
