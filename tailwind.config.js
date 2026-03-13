@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export default {
+    darkMode: 'class',
     content: [
       "./index.html",
       "./src/**/*.{js,ts,jsx,tsx}",
@@ -21,6 +22,8 @@ export default {
           'fade-in': 'fadeIn 0.5s ease-out forwards',
           'slide-up': 'slideUp 0.6s cubic-bezier(0.16, 1, 0.3, 1) forwards',
           'shine': 'shine 4s linear infinite',
+          'shimmer': 'shimmer 2s linear infinite',
+          'spin-slow': 'spin 4s linear infinite',
         },
         keyframes: {
           blob: {
@@ -39,6 +42,10 @@ export default {
           },
           shine: {
             to: { backgroundPosition: '200% center' }
+          },
+          shimmer: {
+            from: { backgroundPosition: '0 0' },
+            to: { backgroundPosition: '-200% 0' },
           }
         }
       },

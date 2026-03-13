@@ -103,11 +103,11 @@ export function Validator() {
   return (
     <section id="testador" className="py-24 relative z-10 border-t border-white/5 bg-zinc-950/20">
       <div className="max-w-4xl mx-auto px-6">
-        <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4">
-            Validador em <span className="text-indigo-400">Tempo Real</span>
+        <div className="text-center mb-12">
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-zinc-900 dark:text-white">
+            Validador em <span className="text-indigo-600 dark:text-purple-400">Tempo Real</span>
           </h2>
-          <p className="text-zinc-400 text-lg max-w-xl mx-auto">
+          <p className="text-zinc-600 dark:text-zinc-400 text-lg max-w-xl mx-auto">
             Experimente a nova lógica. O algoritmo está rodando direto no seu navegador em TypeScript React moderno.
           </p>
           <div className="mt-6 flex justify-center">

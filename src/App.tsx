@@ -13,10 +13,9 @@ function App() {
         <div className="bg-orb orb-1"></div>
         <div className="bg-orb orb-2"></div>
         <div className="bg-orb orb-3"></div>
-        {/* Grid overlay */}
-        <div 
-          className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI0MCIgaGVpZ2h0PSI0MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAwIDEwIEwgNDAgMTAgTSAxMCAwIEwgMTAgNDAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAyKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] [mask-image:linear-gradient(to_bottom,white,transparent)]" 
-        />
+        {/* Grid overlay animado */}
+        <div className="absolute inset-0 bg-grid-premium" />
+        <div className="absolute inset-x-0 bottom-0 h-1/2 bg-gradient-to-t from-bgBase to-transparent pointer-events-none" />
       </div>
 
       <Navbar />
